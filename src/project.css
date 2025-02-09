@@ -26,8 +26,13 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.navbar-color {
+    background: var(--secondary-color);
+}
 
-
+.logo {
+    max-width: 50px;
+}
 .headofpage {
   background: var(--secondary-color);
   text-align: center;
@@ -70,6 +75,10 @@ p {
   color: var(--primary-color);
 }
 
+.box-color {
+    background: var(--secondary-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
@@ -82,6 +91,4 @@ p {
   .headofpage {
     padding: 80px 20px;
   }
-  
- 
 }
