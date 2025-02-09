@@ -16,6 +16,15 @@ h5 {
 h1 {
   font-weight: 700;
   font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 
@@ -38,13 +47,41 @@ h1 {
   line-height: 2;
   color: #272142;
 }
+.project-description {
+  padding: 120px 60px;
+}
+.btn-branding-outline,
+.btn-branding {
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  font-family: var(--font-family-generel);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 
 .btn-branding {
-    background: var(--primary-color);
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-branding-outline {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 70px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 50px;
+  }
+
+  .headofpage {
+    padding: 80px 20px;
+  }
+  
+ 
 }
