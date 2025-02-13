@@ -80,6 +80,25 @@ p {
   background: var(--secondary-color);
 }
 
+.about-section {
+  padding: 150px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+
+  font-family: var(--font-family-generel);
+}
+
+.about-content {
+  margin: 30px;
+}
+
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
@@ -98,20 +117,5 @@ p {
   }
 }
 
-.about-section {
-  padding: 150px 20px;
-}
-.about-section h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
 
-.about-section h2 {
-  font-size: 18px;
 
-  font-family: var(--font-family-generel);
-}
-
-.about-content {
-  margin: 30px;
-}
