@@ -1,6 +1,6 @@
 :root {
   --primary-color: #2c786c;
-  --secondary-color: #AED2C9;
+  --secondary-color: #aed2c9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-family-headings: "Playfair Display", serif;
   --font-family-generel: "Poppins", serif;
@@ -27,11 +27,11 @@ p {
   line-height: 30px;
 }
 .navbar-color {
-    background: var(--secondary-color);
+  background: var(--secondary-color);
 }
 
 .logo {
-    max-width: 50px;
+  max-width: 50px;
 }
 .headofpage {
   background: var(--secondary-color);
@@ -52,6 +52,7 @@ p {
   line-height: 2;
   color: #272142;
 }
+
 .project-description {
   padding: 120px 60px;
 }
@@ -76,7 +77,7 @@ p {
 }
 
 .box-color {
-    background: var(--secondary-color);
+  background: var(--secondary-color);
 }
 
 @media (max-width: 960px) {
@@ -91,4 +92,26 @@ p {
   .headofpage {
     padding: 80px 20px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.about-section {
+  padding: 150px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+
+  font-family: var(--font-family-generel);
+}
+
+.about-content {
+  margin: 30px;
 }
