@@ -117,7 +117,7 @@ p {
 }
 
 footer {
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 footer .inquiry-box {
   background: var(--secondary-color);
