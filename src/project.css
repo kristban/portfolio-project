@@ -92,7 +92,6 @@ p {
   font-size: 64px;
   line-height: 80px;
 }
-
 .subject-container h2 {
   font-size: 18px;
 }
@@ -106,7 +105,6 @@ p {
   text-align: center;
   padding: 150px 20px;
 }
-
 .subject {
   margin: 30px;
 }
@@ -115,6 +113,7 @@ p {
   text-align: center;
   padding: 120px 20px;
 }
+
 footer {
   margin-bottom: 50px;
 }
@@ -141,7 +140,6 @@ footer .email-link {
   text-decoration: none;
   font-size: 24px;
 }
-
 footer .email-link:hover {
   color: var(--primary-color);
 }
@@ -155,7 +153,6 @@ footer .social-icon {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
-
 footer .social-icon:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
