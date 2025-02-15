@@ -102,6 +102,10 @@ p {
 .about-content {
   margin: 30px;
 }
+
+.contact-page {
+  text-align: center;
+}
 footer {
   margin: 60px;
 }
