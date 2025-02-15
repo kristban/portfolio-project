@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <link
@@ -35,40 +35,70 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/project.css" />
-
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid m-0">
-          <a class="navbar-brand" href="index.html"><img src="images/kb-logo.png" class="logo" alt=""></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="about.html">About</a>
-              <a class="nav-link" href="work.html">Work</a>
-              <a class="nav-link" href="contact.html">Contact</a>
-            </div>
+      <div class="container-fluid m-0">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/kb-logo.png" class="logo" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="work.html">Work</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-    <h2>Take a look at what I've been working on!</h2>
+    <div class="container subject-container">
+      <div class="subject">
+        <h1 class="mb-5">Take a look at what I've been working on!</h1>
+        <div class="row">
+          <div class="col-md-6 mb-4"><img src="images/watercolor3.png" class="img-fluid rounded" alt="">
+          <h3 class="text-center">Watercolor Project</h3>
+          <p class="text-center text-muted">Built with HTML and CSS</p>
+          </div>
+          <div class="col-md-6 mb-4"><img src="images/weather3.png" class="img-fluid rounded" alt="">
+          <h3 class="text-center">Worldclock App</h3>
+          <p class="text-center text-muted">Built with HTML, CSS, JavaScript and API</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4"><img src="images/worldclock3.png" class="img-fluid rounded" alt="">
+          <h3 class="text-center">Watercolor Project</h3>
+          <p class="text-center text-muted">Built with HTML and CSS</p>
+          </div>
+          <div class="col-md-6 mb-4"><img src="images/dictionary3.png" class="img-fluid rounded" alt="">
+          <h3 class="text-center">Dictionary</h3>
+          <p class="text-center text-muted">Built with HTML, CSS, JavaScript and API</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
-      <div class="inquiry-box d-md-flex justify-content-between mb-5">
-        <div >
-          <h4 class="d-none d-md-flex">Work Inquiry</h4>
-          <div><p class="text-muted d-none d-md-flex">Let's work together</p></div>
+      <div class="inquiry-box d-md-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <div>
+            <p class="text-muted">Let's work together</p>
+          </div>
         </div>
         <div class="box-button">
           <a
@@ -106,5 +136,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>

@@ -85,29 +85,38 @@ p {
   background: var(--secondary-color);
 }
 
-.about-section {
+.suject-container {
   padding: 150px 20px;
 }
-.about-section h1 {
+.subject-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.subject-container h2 {
   font-size: 18px;
-
+}
+.subject-container h3 {
+  margin-top: 20px;
   font-family: var(--font-family-generel);
+  font-size: 24px;
+}
+.subject-container {
+  font-family: var(--font-family-generel);
+  text-align: center;
+  padding: 150px 20px;
 }
 
-.about-content {
+.subject {
   margin: 30px;
 }
 
 .contact-page {
   text-align: center;
+  padding: 120px 20px;
 }
 footer {
-  margin: 60px;
+  margin-bottom: 50px;
 }
 footer .inquiry-box {
   background: var(--secondary-color);
@@ -167,9 +176,8 @@ footer .social-icon:hover {
   .headofpage {
     padding: 80px 20px;
   }
-  .about-section {
+  .subject-container {
     text-align: center;
     padding: 0;
   }
-  
 }
