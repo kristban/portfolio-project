@@ -21,15 +21,15 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-size: 16px;
   line-height: 30px;
 }
 
-footer {
-    text-align: center;
-}
 .navbar-color {
   background: var(--secondary-color);
 }
@@ -73,6 +73,7 @@ footer {
 .btn-branding {
   background: var(--primary-color);
   color: white;
+  margin: 15px;
 }
 
 .btn-branding-outline {
@@ -101,23 +102,53 @@ footer {
 .about-content {
   margin: 30px;
 }
+footer {
+  margin: 60px;
+}
+footer .inquiry-box {
+  background: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+}
+footer .inquiry-box p {
+  margin: 0;
+}
+footer .box-button {
+  display: block;
+}
+footer .footercontacts {
+  text-align: center;
+  margin-top: 40px;
+}
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
 
-.email-link {
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
+footer .email-link:hover {
+  color: var(--primary-color);
 }
-.social {
-    color: var(--primary-color);
-    padding: 10px;
-    
+footer .social {
+  color: var(--primary-color);
+  padding: 10px 15px;
 }
 
-.social-icon {
-    font-size: 18px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+footer .social-icon {
+  font-size: 18px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
 }
+
+footer .social-icon:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all 50ms ease-in-out;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
@@ -126,7 +157,9 @@ footer {
   h2 {
     font-size: 50px;
   }
-
+  h4 {
+    font-size: 30px;
+  }
   .headofpage {
     padding: 80px 20px;
   }
@@ -134,7 +167,5 @@ footer {
     text-align: center;
     padding: 0;
   }
+  
 }
-
-
-
